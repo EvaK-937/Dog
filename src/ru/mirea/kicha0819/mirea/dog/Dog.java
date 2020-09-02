@@ -1,4 +1,4 @@
-package ru.mirea.kicha0819.mirea;
+package ru.mirea.kicha0819.mirea.dog;
 import java.lang.*;
 
 public class Dog {
@@ -23,13 +23,13 @@ public class Dog {
     public void setName (String name) {
         this.name = name;
     }
-    public String toString() {
+    public String toString(String name) {
         return name;
     }
     public int getAge () {
         return age;
     }
-    public String toString() {
+    public String toString(int age, String name) {
         return this.name+", age "+this.age;
     }
     public void intoHumanAge() {

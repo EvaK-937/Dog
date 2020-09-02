@@ -1,5 +1,7 @@
-package ru.mirea.kicha0819.mirea;
-import java.lang.*\;
+package ru.mirea.kicha0819.mirea.dog;
+//import ru.mirea.kicha0819.mirea.Dog;
+
+import java.lang.*;
 public class TestDog {
     public static void main (String[] args) {
         Dog d1 = new Dog ("Mike", 2);
