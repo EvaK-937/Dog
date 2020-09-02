@@ -29,5 +29,10 @@ public class Dog {
     public int getAge () {
         return age;
     }
-
+    public String toString() {
+        return this.name+", age "+this.age;
+    }
+    public void intoHumanAge() {
+        System.out.println (name+"'s age in human years is "+age*7+" years");
+    }
 }
